@@ -85,7 +85,7 @@ class TodolistController extends Controller
         $todolist->delete();
          
         return redirect()->route('todolist.index')
-                        ->with('success','Todolist deleted successfully');
+                        ->with('success','Todo deleted successfully');
     }
 
     
